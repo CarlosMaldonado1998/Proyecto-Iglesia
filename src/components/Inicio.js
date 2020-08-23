@@ -1,7 +1,7 @@
 import React from 'react';
-import PageHeader from "./PageHeader";
+import Header from "./Header";
 import { Card, Form , Input,   Button  } from 'antd';
-
+import '../styles/App.css';
 import '../styles/inicio.css';
 import Meta from "antd/es/card/Meta";
 
@@ -11,7 +11,7 @@ const Inicio = () => {
 
     return (
         <>
-        <PageHeader />,
+        <Header />,
 
         {/*//Bienvenidos*/}
 
@@ -34,7 +34,9 @@ const Inicio = () => {
 
         {/*//sobre Nosotros*/}
 
-        <div>
+        <div className="space-align-container">
+
+
             <Card
                 style={{ width: 300 }}
                 cover={
