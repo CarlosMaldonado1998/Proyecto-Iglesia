@@ -260,7 +260,7 @@ const Inicio = () => {
                 <div className="site-card-border-less-wrapper " >
                     <Card className="colorBaseA" align="center" bordered={false} >
                         <div className="site-card-wrapper " >
-                            <Divider orientation="center">Equipo</Divider>
+                            <Divider orientation="center">Contáctanos</Divider>
                             <Row gutter={16} align="center">
                                 <Col xs={32} sm={32} md={16} lg={16}  span={8}>
 
