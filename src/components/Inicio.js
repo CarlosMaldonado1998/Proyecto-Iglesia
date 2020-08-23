@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from "./Header";
-import { Card, Form , Input,   Button  } from 'antd';
+import { Card, Form , Input,   Button } from 'antd';
 import '../styles/App.css';
 import '../styles/inicio.css';
 import Meta from "antd/es/card/Meta";
+import Layout from "antd/es/layout";
 
 
 const Inicio = () => {
@@ -16,8 +17,8 @@ const Inicio = () => {
         {/*//Bienvenidos*/}
 
 
-        <div className="site-card-border-less-wrapper">
-            <Card title="Card title" bordered={false} style={{ width: 300 }}>
+        <div className="site-card-border-less-wrapper  space-align-container" align="center" >
+            <Card align="center" bordered={false} style={{ width: 900 }}>
                 <p>Bienvenidos</p>
 
                 {/*//Agregar Texto*/}
@@ -33,6 +34,8 @@ const Inicio = () => {
         </div>
 
         {/*//sobre Nosotros*/}
+
+
 
         <div className="space-align-container">
 
