@@ -261,6 +261,9 @@ const Inicio = () => {
                     <Card className="colorBaseA" align="center" bordered={false} >
                         <div className="site-card-wrapper " >
                             <Divider orientation="center">Contáctanos</Divider>
+                            Para recibir información detallada sobre las utilidades y servicios que ofrece nuestra pagina
+                            ponte en contacto con nostros enviando un correo electrónico
+                            <Divider />
                             <Row gutter={16} align="center">
                                 <Col xs={32} sm={32} md={16} lg={16}  span={8}>
 
