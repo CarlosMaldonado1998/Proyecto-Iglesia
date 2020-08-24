@@ -6,6 +6,9 @@ import '../styles/inicio.css';
 import ImgSobreNosotros1 from  '../images/ImgSobreNosotros1.jpg';
 import ImgSobreNosotros2 from  '../images/ImgSobreNosotros2.jpg';
 import ImgSobreNosotros3 from  '../images/ImgSobreNosotros3.jpg';
+import avatar4 from  '../images/avatar4.jpg';
+import avatar5 from  '../images/avatar5.jpg';
+import avatar6 from  '../images/avatar6.jpg';
 import ImgEquipo1 from  '../images/ImgEquipo1.jpg';
 import ImgEquipo2 from  '../images/ImgEquipo2.jpg';
 import ImgEquipo3 from  '../images/ImgEquipo3.jpg';
@@ -31,7 +34,7 @@ const Inicio = () => {
                 {/*//Agregar Texto*/}
                 <p>  Ahora puedes reservar un asiento para la ceremonia de la Eucaristia de la Iglesia X,
                     desde la comodidad de tu casa  </p>
-                <Button type="primary" shape="round"  >
+                <Button className="separa-boton" type="primary" shape="round"  >
                     Registrar Asiento
                 </Button>
                 <Button type="primary" shape="round"  >
@@ -60,7 +63,6 @@ const Inicio = () => {
                                         <img style={{ width: '40%', height: '100%', borderRadius: '50%'}}
                                             alt="example"
                                             src={ImgSobreNosotros1}
-
                                         />
                                     }
                                 >
@@ -131,7 +133,7 @@ const Inicio = () => {
                                             <img
                                                 style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
-                                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                                src={avatar4}
 
                                             />
                                         }
@@ -148,7 +150,7 @@ const Inicio = () => {
                                             <img
                                                 style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
-                                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                                src={avatar5}
                                             />
                                         }
                                     >
@@ -164,7 +166,7 @@ const Inicio = () => {
                                             <img
                                                 style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
-                                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                                src={avatar6}
                                             />
                                         }
                                     >
