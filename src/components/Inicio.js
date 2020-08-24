@@ -3,6 +3,12 @@ import Header from "./Header";
 import { Card, Col, Row, Form , Input,  Button } from 'antd';
 import '../styles/App.css';
 import '../styles/inicio.css';
+import ImgSobreNosotros1 from  '../images/ImgSobreNosotros1.jpg';
+import ImgSobreNosotros2 from  '../images/ImgSobreNosotros2.jpg';
+import ImgSobreNosotros3 from  '../images/ImgSobreNosotros3.jpg';
+import ImgEquipo1 from  '../images/ImgEquipo1.jpg';
+import ImgEquipo2 from  '../images/ImgEquipo2.jpg';
+import ImgEquipo3 from  '../images/ImgEquipo3.jpg';
 import Meta from "antd/es/card/Meta";
 import Layout from "antd/es/layout";
 import Divider from "antd/es/divider";
@@ -18,7 +24,7 @@ const Inicio = () => {
         {/*//Bienvenidos*/}
 
 
-        <div className="site-card-border-less-wrapper  space-align-container" align="center" >
+        <div className="site-card-border-less-wrapper  space-align-container " align="center" >
             <Card align="center" bordered={false} style={{ width: 900 }}>
                 <p>Bienvenidos</p>
 
@@ -50,10 +56,10 @@ const Inicio = () => {
                                 <Card
                                     className="colorBase"
                                     cover={
-                                        <img
-                                            style={{ width: '80%'}}
+
+                                        <img style={{ width: '40%', height: '100%', borderRadius: '50%'}}
                                             alt="example"
-                                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                            src={ImgSobreNosotros1}
 
                                         />
                                     }
@@ -69,9 +75,9 @@ const Inicio = () => {
                                     className="colorBase"
                                     cover={
                                         <img
-                                            style={{ width: '80%' }}
+                                            style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                             alt="example"
-                                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                            src={ImgSobreNosotros2}
                                         />
                                     }
                                 >
@@ -86,9 +92,9 @@ const Inicio = () => {
                                     className="colorBase"
                                     cover={
                                         <img
-                                            style={{ width: '80%' }}
+                                            style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                             alt="example"
-                                            src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                            src={ImgSobreNosotros3}
                                         />
                                     }
                                 >
@@ -123,7 +129,7 @@ const Inicio = () => {
                                     <Card
                                         cover={
                                             <img
-                                                style={{ width: '80%'}}
+                                                style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
                                                 src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
 
@@ -140,7 +146,7 @@ const Inicio = () => {
                                     <Card
                                         cover={
                                             <img
-                                                style={{ width: '80%' }}
+                                                style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
                                                 src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
                                             />
@@ -156,7 +162,7 @@ const Inicio = () => {
                                     <Card
                                         cover={
                                             <img
-                                                style={{ width: '80%' }}
+                                                style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
                                                 src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
                                             />
@@ -194,9 +200,9 @@ const Inicio = () => {
                                         className="colorBase"
                                         cover={
                                             <img
-                                                style={{ width: '80%'}}
+                                                style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
-                                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                                src={ImgEquipo1}
 
                                             />
                                         }
@@ -212,9 +218,9 @@ const Inicio = () => {
                                         className="colorBase"
                                         cover={
                                             <img
-                                                style={{ width: '80%' }}
+                                                style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
-                                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                                src={ImgEquipo2}
                                             />
                                         }
                                     >
@@ -229,9 +235,9 @@ const Inicio = () => {
                                         className="colorBase"
                                         cover={
                                             <img
-                                                style={{ width: '80%' }}
+                                                style={{ width: '40%', height: '100%', borderRadius: '50%' }}
                                                 alt="example"
-                                                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                                                src={ImgEquipo3}
                                             />
                                         }
                                     >
