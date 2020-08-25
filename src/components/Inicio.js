@@ -12,6 +12,7 @@ import avatar6 from  '../images/avatar6.jpg';
 import ImgEquipo1 from  '../images/ImgEquipo1.jpg';
 import ImgEquipo2 from  '../images/ImgEquipo2.jpg';
 import ImgEquipo3 from  '../images/ImgEquipo3.jpg';
+import ImgDirec from  '../images/ImgDirec.jpg';
 import Meta from "antd/es/card/Meta";
 import Layout from "antd/es/layout";
 import Divider from "antd/es/divider";
@@ -273,13 +274,17 @@ const Inicio = () => {
                             ponte en contacto con nostros enviando un correo electrónico
                             <Divider />
                             <Row gutter={16} align="center">
-                                <Col xs={32} sm={32} md={16} lg={16}  span={8}>
-
-                                    {/*//Ver mapa*/}
-
-
+                                <Col xs={32} sm={32} md={10} lg={10}  span={8}>
+                                    <a href="https://www.google.com.ec/maps/place/Iglesia+Del+Barco/@-0.2588519,-78.5188202,17z/data=!4m5!3m4!1s0x91d59854df33a4f1:0x2ba49ba5a33853b1!8m2!3d-0.2572981!4d-78.5196841"
+                                       target="_blank">
+                                        <img
+                                            style={{ width: '100%', height: '90%' }}
+                                            alt="example"
+                                            src={ImgDirec}
+                                        />
+                                    </a>
                                 </Col>
-                                <Col xs={32} sm={32} md={16} lg={16}  span={8}>
+                                <Col xs={32} sm={32} md={10} lg={10}  span={8}>
 
                                     <Form name="nest-messages"  >
 
