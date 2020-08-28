@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Proyecto-Iglesia/static/css/main.bd57b2e6.chunk.css",
+    "main.js": "/Proyecto-Iglesia/static/js/main.195ca086.chunk.js",
+    "main.js.map": "/Proyecto-Iglesia/static/js/main.195ca086.chunk.js.map",
+    "runtime-main.js": "/Proyecto-Iglesia/static/js/runtime-main.046eb3fb.js",
+    "runtime-main.js.map": "/Proyecto-Iglesia/static/js/runtime-main.046eb3fb.js.map",
+    "static/css/2.847e01e0.chunk.css": "/Proyecto-Iglesia/static/css/2.847e01e0.chunk.css",
+    "static/js/2.b59b0ec0.chunk.js": "/Proyecto-Iglesia/static/js/2.b59b0ec0.chunk.js",
+    "static/js/2.b59b0ec0.chunk.js.map": "/Proyecto-Iglesia/static/js/2.b59b0ec0.chunk.js.map",
+    "index.html": "/Proyecto-Iglesia/index.html",
+    "precache-manifest.dfb1877351723a3c2bba886b64da791b.js": "/Proyecto-Iglesia/precache-manifest.dfb1877351723a3c2bba886b64da791b.js",
+    "service-worker.js": "/Proyecto-Iglesia/service-worker.js",
+    "static/css/2.847e01e0.chunk.css.map": "/Proyecto-Iglesia/static/css/2.847e01e0.chunk.css.map",
+    "static/css/main.bd57b2e6.chunk.css.map": "/Proyecto-Iglesia/static/css/main.bd57b2e6.chunk.css.map",
+    "static/js/2.b59b0ec0.chunk.js.LICENSE.txt": "/Proyecto-Iglesia/static/js/2.b59b0ec0.chunk.js.LICENSE.txt",
+    "static/media/ImgDirec.jpg": "/Proyecto-Iglesia/static/media/ImgDirec.f77a613d.jpg",
+    "static/media/ImgEquipo1.jpg": "/Proyecto-Iglesia/static/media/ImgEquipo1.b0ca9fc3.jpg",
+    "static/media/ImgSobreNosotros1.jpg": "/Proyecto-Iglesia/static/media/ImgSobreNosotros1.1a004527.jpg",
+    "static/media/ImgSobreNosotros3.jpg": "/Proyecto-Iglesia/static/media/ImgSobreNosotros3.8453c5e2.jpg",
+    "static/media/avatar4.jpg": "/Proyecto-Iglesia/static/media/avatar4.e3a8e17b.jpg",
+    "static/media/avatar5.jpg": "/Proyecto-Iglesia/static/media/avatar5.39b03092.jpg",
+    "static/media/avatar6.jpg": "/Proyecto-Iglesia/static/media/avatar6.133c3a97.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.046eb3fb.js",
+    "static/css/2.847e01e0.chunk.css",
+    "static/js/2.b59b0ec0.chunk.js",
+    "static/css/main.bd57b2e6.chunk.css",
+    "static/js/main.195ca086.chunk.js"
+  ]
+}
