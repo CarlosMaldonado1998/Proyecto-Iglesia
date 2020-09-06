@@ -1,15 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router} from "react-router-dom";
 
-import Inicio from './Inicio';
+
+import Navigation from "./Navigation";
+import Header from "./Header";
+
 
 function App() {
-  return (
+    return (
+        <Router>
+            <div>
+                <Header />
+                <Navigation />
+            </div>
+        </Router>
 
-      <>
-        <Inicio />
-        </>
-
-  );
+    );
 }
 
 export default App;

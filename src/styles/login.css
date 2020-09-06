@@ -1,0 +1,19 @@
+@import '~antd/dist/antd.css';
+.tamanio-cuadro{
+    height: auto;
+    width: 60%;
+
+}
+.ant-card-cover{
+    height: 150px;
+    margin-top: 105px;
+    border: none;
+    background-color:transparent;
+
+}
+.fondo-login {
+    padding: 30px;
+    background-image: url("../images/FondoPagLog.jpg");
+    background-size: cover;
+    height: 550px;
+}

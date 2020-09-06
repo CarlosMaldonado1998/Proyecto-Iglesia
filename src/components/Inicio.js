@@ -1,6 +1,5 @@
 import React from 'react';
-import Header from "./Header";
-import { Card, Col, Row, Form , Input,  Button } from 'antd';
+import {Card, Col, Row, Form, Input, Button} from 'antd';
 import '../styles/App.css';
 import '../styles/inicio.css';
 import ImgSobreNosotros1 from  '../images/ImgSobreNosotros1.jpg';
@@ -14,118 +13,120 @@ import ImgEquipo2 from  '../images/ImgEquipo2.jpg';
 import ImgEquipo3 from  '../images/ImgEquipo3.jpg';
 import ImgDirec from  '../images/ImgDirec.jpg';
 import Meta from "antd/es/card/Meta";
-import Layout from "antd/es/layout";
 import Divider from "antd/es/divider";
+import {Link} from "react-router-dom";
 
 
 const Inicio = () => {
 
+    //const [numPag, setNumPag] = useState (1);
 
     return (
         <>
-        <Header />,
-
-        {/*//Bienvenidos*/}
 
 
-        <div className="site-card-border-less-wrapper  space-align-container " align="center" >
-            <Card align="center" bordered={false} style={{ width: 900 }}>
-                <p>Bienvenidos</p>
+            {/*//Bienvenidos*/}
+            <div >
+                <div className="site-card-border-less-wrapper " >
+                    <Card className="imagen-fondo-inicio" align="center" bordered={false} >
+                        <div className="site-card-wrapper " id="id-about" >
+                            <Card className=" tamanio-cuadro"  bordered={false} style={{marginTop:95}}>
+                                <div className="site-card-wrapper " id="id-about" >
+                                    <p>Bienvenidos</p>
+                                    <p>  Ahora puedes reservar un asiento para la ceremonia de la Eucaristia de la Iglesia X,
+                                        desde la comodidad de tu casa  </p>
+                                    <Button className="separa-boton" type="primary" shape="round"  >
+                                        <Link to="/RegistrarAsiento">Registrar Asiento</Link>
+                                    </Button>
+                                    <Button type="primary" shape="round"  >
+                                        <Link to="/Login">Ingresar Foro</Link>
+                                    </Button>
+                                </div>
+                            </Card>
+                        </div>
 
-                {/*//Agregar Texto*/}
-                <p>  Ahora puedes reservar un asiento para la ceremonia de la Eucaristia de la Iglesia X,
-                    desde la comodidad de tu casa  </p>
-                <Button className="separa-boton" type="primary" shape="round"  >
-                    Registrar Asiento
-                </Button>
-                <Button type="primary" shape="round"  >
-                    Ingresar Foro
-                </Button>
 
-            </Card>
-        </div>
+                    </Card>
+                </div>
+            </div>
+            {/*//sobre Nosotros*/}
 
-        {/*//sobre Nosotros*/}
+            <div >
 
-
-
-        <div >
-
-            <div className="site-card-border-less-wrapper " >
-                <Card className="colorBase" align="center" bordered={false} >
-                    <div className="site-card-wrapper " >
-                        <Divider orientation="center">Sobre Nosotros</Divider>
-                        <Row gutter={16} align="center">
-                            <Col xs={32} sm={16} md={8} lg={8}  span={8}>
-                                <Card
-                                    className="colorBase"
-                                    cover={
-
-                                        <img style={{ width: '40%', height: '100%', borderRadius: '50%'}}
-                                            alt="example"
-                                            src={ImgSobreNosotros1}
+                <div className="site-card-border-less-wrapper " >
+                    <Card className="colorBase" align="center" bordered={false} >
+                        <div className="site-card-wrapper " id="id-about" >
+                            <Divider orientation="center">Sobre Nosotros</Divider>
+                            <Row gutter={16} align="center">
+                                <Col xs={32} sm={16} md={8} lg={8}  span={8}>
+                                    <Card
+                                        className="colorBase"
+                                        cover={
+                                            <img style={{ width: '40%', height: '100%', borderRadius: '50%'}}
+                                                 alt="example"
+                                                 src={ImgSobreNosotros1}
+                                            />
+                                        }
+                                    >
+                                        <Meta
+                                            title="¿Qué Somos?"
+                                            description="La iglesia tiene el objetivo de establecer una iglesia que sea acorde con el corazón de Dios para que los creyentes puedan servirse y proveerse mutuamente en las palabras de Dios y en el amor de Dios, obedecer y adorar a Dios Todopoderoso, Cristo de los últimos días, y convertirse en verdaderos testimonios para Dios."
                                         />
-                                    }
-                                >
-                                    <Meta
-                                        title="¿Qué Somos?"
-                                        description="La iglesia tiene el objetivo de establecer una iglesia que sea acorde con el corazón de Dios para que los creyentes puedan servirse y proveerse mutuamente en las palabras de Dios y en el amor de Dios, obedecer y adorar a Dios Todopoderoso, Cristo de los últimos días, y convertirse en verdaderos testimonios para Dios."
-                                    />
-                                </Card>
-                            </Col>
-                            <Col xs={32} sm={16} md={8} lg={8}  span={8}>
-                                <Card
-                                    className="colorBase"
-                                    cover={
-                                        <img
-                                            style={{ width: '40%', height: '100%', borderRadius: '50%' }}
-                                            alt="example"
-                                            src={ImgSobreNosotros2}
+                                    </Card>
+                                </Col>
+                                <Col xs={32} sm={16} md={8} lg={8}  span={8}>
+                                    <Card
+                                        className="colorBase"
+                                        cover={
+                                            <img
+                                                style={{ width: '40%', height: '100%', borderRadius: '50%' }}
+                                                alt="example"
+                                                src={ImgSobreNosotros2}
+                                            />
+                                        }
+                                    >
+                                        <Meta
+                                            title="Organización en la Iglesia"
+                                            description="Debido a la situacion actual que esta atravesando el mundo entero, la Iglesia de la parroquia ha decido realizar las ceremonías de una manera ordenada respetando el distanciamiento social que han propuesto las autoridades del área de la salud."
                                         />
-                                    }
-                                >
-                                    <Meta
-                                        title="Organización en la Iglesia"
-                                        description="Debido a la situacion actual que esta atravesando el mundo entero, la Iglesia de la parroquia ha decido realizar las ceremonías de una manera ordenada respetando el distanciamiento social que han propuesto las autoridades del área de la salud."
-                                    />
-                                </Card>
-                            </Col>
-                            <Col xs={32} sm={16} md={8} lg={8} span={8}>
-                                <Card
-                                    className="colorBase"
-                                    cover={
-                                        <img
-                                            style={{ width: '40%', height: '100%', borderRadius: '50%' }}
-                                            alt="example"
-                                            src={ImgSobreNosotros3}
+                                    </Card>
+                                </Col>
+                                <Col xs={32} sm={16} md={8} lg={8} span={8}>
+                                    <Card
+                                        className="colorBase"
+                                        cover={
+                                            <img
+                                                style={{ width: '40%', height: '100%', borderRadius: '50%' }}
+                                                alt="example"
+                                                src={ImgSobreNosotros3}
+                                            />
+                                        }
+                                    >
+                                        <Meta
+                                            title="¿Por qué?"
+                                            description="Nuestra tarea es clarificar lo que nos ha sido revelado por Dios desde los evangelios y que ha dejado en custodia para que lo sigamos enseñando a todas las generaciones hasta el fin de los tiempos. La familia cristiana,    es  la mayor y más perfecta imagen de Dios sobre la tierra."
                                         />
-                                    }
-                                >
-                                    <Meta
-                                        title="¿Por qué?"
-                                        description="Nuestra tarea es clarificar lo que nos ha sido revelado por Dios desde los evangelios y que ha dejado en custodia para que lo sigamos enseñando a todas las generaciones hasta el fin de los tiempos. La familia cristiana,    es  la mayor y más perfecta imagen de Dios sobre la tierra."
-                                    />
-                                </Card>
+                                    </Card>
 
 
-                            </Col>
-                        </Row>
-                    </div>
+                                </Col>
+                            </Row>
+                        </div>
 
 
-                </Card>
+                    </Card>
+                </div>
+
+
             </div>
 
-
-        </div>
-
-        {/*//Testimonios*/}
+            {/*//Testimonios*/}
 
             <div >
 
                 <div className="site-card-border-less-wrapper " >
                     <Card  align="center" bordered={false} >
-                        <div className="site-card-wrapper " >
+                        <div className="site-card-wrapper " id="id-testimonio">
                             <Divider orientation="center">Testimonios</Divider>
                             <Row gutter={16} align="center">
                                 <Col xs={32} sm={16} md={8} lg={8}  span={8}>
@@ -189,13 +190,13 @@ const Inicio = () => {
 
             </div>
 
-        {/*// Equipo*/}
+            {/*// Equipo*/}
 
             <div >
 
                 <div className="site-card-border-less-wrapper " >
                     <Card className="colorBase" align="center" bordered={false} >
-                        <div className="site-card-wrapper " >
+                        <div className="site-card-wrapper " id="id-equipo">
                             <Divider orientation="center">Equipo</Divider>
                             <Row gutter={16} align="center">
                                 <Col xs={32} sm={16} md={8} lg={8}  span={8}>
@@ -262,13 +263,13 @@ const Inicio = () => {
 
             </div>
 
-                {/*//Contactanos*/}
+            {/*//Contactanos*/}
 
             <div >
 
                 <div className="site-card-border-less-wrapper " >
                     <Card className="colorBaseA" align="center" bordered={false} >
-                        <div className="site-card-wrapper " >
+                        <div className="site-card-wrapper " id="id-contact">
                             <Divider orientation="center">Contáctanos</Divider>
                             Para recibir información detallada sobre las utilidades y servicios que ofrece nuestra pagina
                             ponte en contacto con nostros enviando un correo electrónico
@@ -276,7 +277,7 @@ const Inicio = () => {
                             <Row gutter={16} align="center">
                                 <Col xs={32} sm={32} md={10} lg={10}  span={8}>
                                     <a href="https://www.google.com.ec/maps/place/Iglesia+Del+Barco/@-0.2588519,-78.5188202,17z/data=!4m5!3m4!1s0x91d59854df33a4f1:0x2ba49ba5a33853b1!8m2!3d-0.2572981!4d-78.5196841"
-                                       target="_blank">
+                                       >
                                         <img
                                             style={{ width: '100%', height: '90%' }}
                                             alt="example"
@@ -319,8 +320,6 @@ const Inicio = () => {
 
         </>
     )
-
-
 
 }
 
