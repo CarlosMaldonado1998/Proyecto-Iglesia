@@ -7,8 +7,6 @@ import '../styles/headerforos.css';
 const HeaderForos = () => {
 
     return (
-
-
         <div className='header'>
             <PageHeader
                 title='Un Lugar Juntos'

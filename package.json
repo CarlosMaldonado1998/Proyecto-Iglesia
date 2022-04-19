@@ -2,12 +2,18 @@
   "name": "codigo-iglesia",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://CarlosMaldonado1998.github.io/Proyecto-Iglesia",
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
+    "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "antd": "^4.5.4",
+    "firebase": "^9.6.10",
+    "jspdf": "^2.5.1",
+    "moment": "^2.27.0",
+    "qrcode.react": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native": "^0.63.2",
@@ -15,6 +21,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
