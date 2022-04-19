@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9897a26d3036aabd2d9ddcfbda741503",
+    "revision": "1c5e7dc1d362ca6b9c4d47fe5c7078a4",
     "url": "/Proyecto-Iglesia/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Proyecto-Iglesia/static/css/2.755155ed.chunk.css"
   },
   {
-    "revision": "d4794fc82070abe7d5b7",
+    "revision": "4d8c1148b3a8adeac5be",
     "url": "/Proyecto-Iglesia/static/css/main.dfcfa3a8.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Proyecto-Iglesia/static/js/5.dba6170b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4794fc82070abe7d5b7",
-    "url": "/Proyecto-Iglesia/static/js/main.a56d62e5.chunk.js"
+    "revision": "4d8c1148b3a8adeac5be",
+    "url": "/Proyecto-Iglesia/static/js/main.91cfc654.chunk.js"
   },
   {
     "revision": "eb72068322258e370bc8",
