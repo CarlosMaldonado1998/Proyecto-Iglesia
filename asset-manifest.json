@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Proyecto-Iglesia/static/css/main.dfcfa3a8.chunk.css",
-    "main.js": "/Proyecto-Iglesia/static/js/main.8754cf68.chunk.js",
-    "main.js.map": "/Proyecto-Iglesia/static/js/main.8754cf68.chunk.js.map",
+    "main.js": "/Proyecto-Iglesia/static/js/main.5444cd48.chunk.js",
+    "main.js.map": "/Proyecto-Iglesia/static/js/main.5444cd48.chunk.js.map",
     "runtime-main.js": "/Proyecto-Iglesia/static/js/runtime-main.56abe8f7.js",
     "runtime-main.js.map": "/Proyecto-Iglesia/static/js/runtime-main.56abe8f7.js.map",
     "static/css/2.755155ed.chunk.css": "/Proyecto-Iglesia/static/css/2.755155ed.chunk.css",
@@ -15,7 +15,7 @@
     "static/js/5.dba6170b.chunk.js": "/Proyecto-Iglesia/static/js/5.dba6170b.chunk.js",
     "static/js/5.dba6170b.chunk.js.map": "/Proyecto-Iglesia/static/js/5.dba6170b.chunk.js.map",
     "index.html": "/Proyecto-Iglesia/index.html",
-    "precache-manifest.747cdfdc9ba1ad74e72e09250d5c4725.js": "/Proyecto-Iglesia/precache-manifest.747cdfdc9ba1ad74e72e09250d5c4725.js",
+    "precache-manifest.6ef367b87df168300f8c1cd1ef235ddc.js": "/Proyecto-Iglesia/precache-manifest.6ef367b87df168300f8c1cd1ef235ddc.js",
     "service-worker.js": "/Proyecto-Iglesia/service-worker.js",
     "static/css/2.755155ed.chunk.css.map": "/Proyecto-Iglesia/static/css/2.755155ed.chunk.css.map",
     "static/css/main.dfcfa3a8.chunk.css.map": "/Proyecto-Iglesia/static/css/main.dfcfa3a8.chunk.css.map",
@@ -53,6 +53,6 @@
     "static/css/2.755155ed.chunk.css",
     "static/js/2.55773038.chunk.js",
     "static/css/main.dfcfa3a8.chunk.css",
-    "static/js/main.8754cf68.chunk.js"
+    "static/js/main.5444cd48.chunk.js"
   ]
 }
